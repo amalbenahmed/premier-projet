@@ -1,0 +1,51 @@
+/*logo*/
+/*text*/
+#h3{
+    color: azure;
+    font-size: 155%;
+    padding-top:50px;
+ padding-bottom:1px;
+ padding-right:5px;
+ padding-left:80px;
+}
+img{
+    width: 200px;
+    height: 150px;
+    margin-left:1px;
+    margin-right: 600px;
+    margin-top: 10px;
+   
+}*
+
+
+
+/*bouton inscription*/
+#inscription{
+    background-color:#66a5ee;
+    margin-left:40px;
+    margin-right: 20px;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    text-decoration: indianred;
+    font-weight: bolder ;
+    padding: 14px 15px;
+    text-align: center; 
+    float:right;
+
+}
+/*bouton connexion*/
+#connexion{
+    background-color:#66a5ee;
+    margin-left:40px;
+    margin-right: 20px;
+    margin-top: 1px;
+    margin-bottom: 100px;
+    text-decoration: indianred;
+    font-weight: bolder ;
+    padding: 14px 15px;
+    text-align: center; 
+    float:right;
+}
+
+
+
