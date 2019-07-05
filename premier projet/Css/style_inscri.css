@@ -1,5 +1,11 @@
 /*logo*/
 /*text*/
+.b{
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(226, 76, 76, 0.938);
+    padding: 0%;
+}
 #h3{
     color: azure;
     font-size: 155%;
@@ -15,7 +21,7 @@ img{
     margin-right: 600px;
     margin-top: 10px;
    
-}*
+}
 
 
 
@@ -26,7 +32,7 @@ img{
     margin-right: 20px;
     margin-top: 1px;
     margin-bottom: 100px;
-    text-decoration: indianred;
+    text-decoration:  rgba(226, 76, 76, 0.938);
     font-weight: bolder ;
     padding: 14px 15px;
     text-align: center; 
@@ -40,7 +46,7 @@ img{
     margin-right: 20px;
     margin-top: 1px;
     margin-bottom: 100px;
-    text-decoration: indianred;
+    text-decoration:  rgba(226, 76, 76, 0.938);
     font-weight: bolder ;
     padding: 14px 15px;
     text-align: center; 
