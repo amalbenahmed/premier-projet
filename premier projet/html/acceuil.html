@@ -3,31 +3,65 @@
 
 <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style_acceuil.css" />
 
         <title>Acceuil</title>
 </head>
-
-<body>
+<body class="b">
         <!--le Logo avec le lien home-->
-        <div class="b">
+        <div>
                 <div class="home">
                         <a href="home.html">
                                 <img src="../img/to do list.png" alt="to do list">
                                 <a href="home.html"></a>
                 </div>
                 <!--le bouton profil-->
-                <div id="inscription">
+                <div id="profil">
                         <a href="profil.html">profil</a>
                 </div>
                 <!--le bouton deconnexion-->
-                <div id="connexion">
+                <div id="deconnexion">
                         <a href="connexion.html">deconnexion</a>
                 </div>
-                <!--le bouton Add-->
-                <div id="connexion">
-                        <a href="ajout_to_do.html">Add</a>
-                </div>
 
+                <table class="T" border="1">
+                        <h1>To do list :</h1>
+                        <thead>
+                                <th>Title</th>
+                                <th>Date</th>
+                                <th>Action</th>
+                                <th>Add</th>
+
+                        </thead>
+                        <tbody>
+                                <tr>
+                                        <td><textarea name="add" placeholder="Title"></textarea></td>
+                                        <td><textarea name="add" placeholder="date"></textarea></td>
+                                        <td><textarea name="add" placeholder="Action"></textarea></td>
+                                        <th><a  href="ajout_to_do.html">Add</a></th>
+                                </tr>
+                        </tbody>
+                </table>
+                <h1>Done list :</h1>
+                <table class="t" border="1">
+                        <thead>
+                                <th>Title</th>
+                                <th>Date</th>
+                                <th>End date</th>
+                                <th>Action</th>
+                                <th>Done</th>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                        <td><textarea name="add" placeholder="Title"></textarea></td>
+                                        <td><textarea name="add" placeholder="date"></textarea></td>
+                                        <td><textarea name="add" placeholder="End date"></textarea></td>
+                                        <td><textarea name="add" placeholder="Action"></textarea></td>
+                                        <th><a href="">Delete</a></th>
+
+                                </tr>
+                        </tbody>
+                </table>
         </div>
 
 </body>

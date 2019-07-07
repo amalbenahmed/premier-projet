@@ -9,7 +9,7 @@
 
 <body class="b">
     <!--le Logo avec le lien home-->
-    <div class="b">
+    <div>
         <div class="inscription">
             <a href="home.html">
                 <img src="../img/to do list.png" alt="to do list">
@@ -24,9 +24,9 @@
             <a href="connexion.html">connecter</a>
         </div>
         <!--le formulaire-->
-        <p id="h3">
-            <h3>inscrivez-vous ici :</h3>
-            <form action="connexion.html" onsubmit="verifForm(this)">
+        <p >
+            <form class=h3 action="connexion.html" onsubmit="verifForm(this)">
+                <h3>inscrivez-vous ici :</h3>
 
                 <h3>Name: <input type="text" name="name" onblur="verifPseudo(this)"/></h3>
                 <h3>Surname: <input type="text" name="surname" onblur="verifPseudo(this)"></h3>
@@ -56,7 +56,7 @@
                 <h3>Password: <input type="text" name="password"></h3>
                 <!--le bouton inscription-->
                 <p id="inscription">
-                    <a href="connexion.html">inscription</a>
+                    <a href="home.html">inscription</a>
                 </p>
             </form>
         </p>
