@@ -12,7 +12,10 @@ img{
     background-color: rgba(226, 76, 76, 0.938);
     padding: 0%;
 }
-#profil{
+.t{
+    text-align: center;
+}
+/*#profil{
     background-color:#66a5ee;
     margin-left:40px;
     margin-right: 20px;
@@ -35,8 +38,8 @@ img{
     padding: 14px 15px;
     text-align: center; 
     float:right;
-}
-#Add{
+}*/
+#ajout{
     background-color:#66a5ee;
     margin-left:40px;
     margin-right: 400px;

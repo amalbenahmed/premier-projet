@@ -3,41 +3,57 @@
 
 <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="../css/style_home.css" />
+        <link rel="stylesheet" href="../css/style_connexion.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+
+
         <title>Connexion</title>
 </head>
 
 <body class="b">
         <!--le Logo avec le lien home-->
         <div>
-                <p class="home">
+                <div class="inscription">
                         <a href="home.html">
                                 <img src="../img/to do list.png" alt="to do list">
                                 <a href="home.html"></a>
-                </p>
+                </div>
                 <!--le bouton inscription-->
                 <p id="inscription">
-                        <a href="inscription.html">inscription</a>
+                        <a <button href=inscription.html type="button" class="btn btn-primary">Inscription</button> </a>
+
                 </p>
                 <!--le bouton connexion-->
                 <p id="connexion">
-                        <a href="connexion.html">connexion</a>
-                </p>
-                <p id="h3">
-                        <h3>inscrivez-vous ici :</h3>
-                        <form action="home.html">
-                                <div id="h3">
-                                        <h3>Name: <input type="text" name="name"></h3>
-                                        <h3>Email: <input type="text" name="email"></h3>
-                                        <h3>Password: <input type="text" name="password"></h3>
-                                        <!--le bouton inscription-->
-                                        <p id="connexion">
-                                                <a href="acceuil.html">connecter</a>
-                                        </p>
+                        <a <button href=connexion.html type="button" class="btn btn-primary">Connexion</button> </a>
 
-                                </div>
-                        </form>
                 </p>
+                <!--le formulaire-->
+
+                <form>
+                        <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email
+                                        with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <a <button href="acceuil.html" type="submit" class="btn btn-primary">Connecter</button></a>
+                </form>
+
+        </div>
+
 </body>
 
 </html>
