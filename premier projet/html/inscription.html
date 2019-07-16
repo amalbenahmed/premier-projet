@@ -4,30 +4,131 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/style_inscri.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Inscription</title>
 </head>
 
 <body class="b">
-    <!--le Logo avec le lien home-->
+    <div>
+        <div>
+            <a href="home.html">
+                <img src="../img/to do list.png" alt="to do list">
+            </a>
+        </div>
+        <div class="button">
+            <p id="inscription">
+                <a <button href=inscription.html type="button" class="btn btn-primary">S'inscrire</button> </a>
+
+            </p>
+            <p id="connexion">
+                <a <button href=connexion.html type="button" class="btn btn-primary">Connecter</button> </a>
+            </p>
+        </div>
+    </div>
+    <form class="text">
+            <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Username</label>
+                    <div class="col-sm-10">
+                        <input type="Username" class="form-control" id="inputUsername" placeholder="Username">
+                    </div>
+                </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+        </div>
+        <fieldset class="form-group">
+            <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <!--<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                            checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            Male
+                        </label>-->
+                        <input type="radio" name="gender" value="male" checked>Male<br>
+                        <input type="radio" name="gender" value="female" checked>Female<br>
+                    </div>
+
+                </div>
+            </div>
+        </fieldset>
+        <div class="form-group row">
+            <div class="col-sm-2">Activities:</div>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <!--<input class="form-check-input" type="checkbox" id="gridCheck1">
+                    <label class="form-check-label" for="gridCheck1">
+                        Example checkbox
+                    </label>-->
+                    <input type="checkbox" name="reading" value="r" checked> Reading<br>
+                    <input type="checkbox" name="sport" value="s"> Sport<br>
+                    <input type="checkbox" name="play" value="p"> Play an instrument<br>
+                    <input type="checkbox" name="yoga" value="y"> Yoga<br>
+                    <input type="checkbox" name="video" value="v"> Video games<br>
+                </div>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2">Nationality:</div>
+            <div class="col-sm-10">
+                <div class="form-select">
+                    <select name="nationality">
+                        <option value="fran">French</option>
+                        <option value="eng">English</option>
+                        <option value="ital">Italien</option>
+                        <option value="tuni">Tunisian</option>
+                        <option value="amer">American</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-2">Bio:</div>
+            <div class="col-sm-10">
+                <div class="form-bio">
+                    <textarea name="bio" rows="8" cols="50" placeholder="write your bio"></textarea>
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <a <button href =home.html type="submit" class="btn btn-primary">Sign in</button></a>
+            </div>
+        </div>
+    </form>
+</body>
+<!--<body class="b">
+    <!--le Logo avec le lien home
     <div>
         <div class="inscription">
             <a href="home.html">
                 <img src="../img/to do list.png" alt="to do list">
             </a>
         </div>
-        <!--le bouton inscription-->
+        <!--le bouton inscription
         <p id="inscription">
             <a <button href =inscription.html type="button" class="btn btn-primary">S'inscrire</button> </a>
 
         </p>
-        <!--le bouton connexion-->
+        <!--le bouton connexion
         <p id="connexion">
             <a <button href =connexion.html type="button" class="btn btn-primary">Connecter</button> </a>
 
         </p>
-        <!--le formulaire-->
+        <!--le formulaire
         <p>
             <form class="text" action="connexion.html" onsubmit="verifForm(this)">
                    <h2 class="title">Inscrivez-vous ici :</h2>
@@ -58,7 +159,7 @@
 
                 <h3>Email: <input type="text" name="email" onblur="verifMail(this)"></h3>
                 <h3>Password: <input type="text" name="password"></h3>
-                <!--le bouton inscription-->
+                <!--le bouton inscription
                 <p id="inscription">
                     <a <button href =home.html type="button" class="btn btn-primary">Inscription</button> </a>
                 </p>
@@ -67,6 +168,6 @@
         </p>
     </div>
     <script src="../js/inscri.js"></script>
-</body>
+</body>-->
 
 </html>
