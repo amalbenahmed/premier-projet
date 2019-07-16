@@ -1,18 +1,38 @@
 img{
-    /*width: 200px;*/
+    width: 200px;
     height: 150px;
     margin-left:1px;
     margin-right: 600px;
     margin-top: 10px;
    
 }
-h1{
+.fig{
+    width: 200px;
+    height: 150px;
+   /* margin-left:1px;
+    margin-right: 600px;
+    margin-top: 10px;
+text-align: center;*/
+}
+.ph{
+    width: 200px;
+    height: 230px;
+}
+h2{
     color: rgb(255, 255, 255);
+}
+h4{
+    color: rgb(255, 255, 255);
+}
+.contact{
+    color: rgb(255, 255, 255);
+
 }
 .b{
     height: 1000px;
     background-color: #F2A104;
     padding: 0%;
+    /*text-align: right;*/
     margin-right: 5%;
     margin-left: 5%;
 }
